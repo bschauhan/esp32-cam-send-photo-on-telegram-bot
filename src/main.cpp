@@ -22,10 +22,10 @@
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
 
-const char* ssid = "error";
-const char* password = "bharat@123";
-const char* botToken = "8335814483:AAEA8m8S2DSExLHuMilwJUrms3i7LAJfctg";
-const char* chatID = "890506551";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_password";
+const char* botToken = "bot_token_here"; // Replace with your Telegram bot token
+const char* chatID = "bot_chat_id_here"; // Replace with your Telegram chat ID
 
 // Telegram API Endpoint
 String telegramApiUrl = "https://api.telegram.org/bot" + String(botToken) + "/sendPhoto";
